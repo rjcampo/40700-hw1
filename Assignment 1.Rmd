@@ -2,11 +2,7 @@
 title: 'Assignment 1: Visualization and Critique'
 author: "Richard Campo"
 date: "`r Sys.Date()`"
-<<<<<<< HEAD
 output: github_document
-=======
-output: rmarkdown::github_document
->>>>>>> 123e0a7a0456b85028e1d362d127ec8c82f667d2
 ---
 
 ```{r setup, include=FALSE}
