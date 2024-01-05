@@ -1,0 +1,40 @@
+---
+title: 'Assignment 1: Visualization and Critique'
+author: "Richard Campo"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+The data visualization I chose was 538's generic ballot polling chart available here: https://projects.fivethirtyeight.com/polls/generic-ballot/2024/
+
+### Is the visualization truthful?
+Yes, 538's chart is truthful. The polling data used to make the chart come from polling firms that asked random samples of registered voters whether they would support a generic Republican or generic Democrat for Congress. There is nothing misleading about the graph. The vertical axis only goes from 30% to 60%, but that just zooms our view in. It does not make the difference between the generic candidates' support look larger than the truth. The designer also included the confidence intervals for each candidate, which I think is more truthful since it shows that polls have uncertainty.
+
+I think the chart could be more truthful if it made clearer that registered voters were polled, rather than eligible voters or likely voters. The designer could add that to the description under the title by replacing "people" with "registered voters." I do like that the designer explained the confidence interval in the key in plain terms though, and it is good that they included links to the polls they use and a link to 538's methodology. Including whether the poll was funded by partisans is also helpful to understand that not all of the data is unbiased. I am sure they explain in the methodology, but more explanation of why partisan polls are included on the main page would be helpful.
+
+### Is the visualization functional?
+The chart is functional in the sense that it conveys the information that the designer is trying to show. I understand from the chart that a generic Republican and generic Democrat are about equally popular among voters. The chart is also interactive, which allows me to see which party is ahead on the generic ballot on any given day from April 3, 2023 to the present. I think the interactivity does provide value since the differences are too small to compare easily using the vertical axis.
+
+I think the designer could add some important events as labeled vertical lines to tell more of a story about why the trend lines go up or down more than usual. Examples of important events could be around July 2023 when the Democratic line starts decreasing and October 2023 when the line recovers and starts increasing.
+
+Some examples of what previous election years' generic polling numbers looked like would also be helpful context. The designer could show this chart in the top left corner, and then go reverse-chronologically showing several previous election years.
+
+### Is the visualization beautiful?
+I do not find this visualization particularly beautiful. The red and blue confidence intervals are semi-transparent, which looks good, except when they intersect to make that purple-gray color. I think the designer could try different shades of red and blue to get a nicer intersecting shade of purple. Otherwise, the white background looks good. I do not think the vertical lines for quarter and the horizontal lines for each 10% increment look bad, but I do not think they are very helpful either, so I might remove them. The interactive feature looks great though.
+
+I also like that in the interactive feature, the text of "Republicans" and "Democrats" is color coded. I should probably also give credit for color coding Democrats as blue and Republicans as red, since the opposite would be very confusing. I think I would also add the option to turn on and off the scatter plot, lines, and confidence intervals since the chart may look more beautiful without one or more of those elements, even if all those elements should be available to view since they are informative.
+
+### Is the visualization insightful?
+I do not think 538's chart is very insightful. I do learn that the generic Republican and generic Democrat have been about even in terms of support since April 1, 2023. However, I could have found similar charts elsewhere or read an article about the generic polls. 538's chart does not add much unique to the existing coverage of generic polls. However, I will give the designer credit again for making the chart interactive. Making the two generic candidates easier to compare does make the chart more insightful because I can understand the differences over time easier.
+
+I think the suggestion I made for functionality of adding previous election years' generic ballot results for comparison would also provide more insight. For example, this year's generic ballot polling might be much closer than previous years when either the Democrat or the Republican was the clear favorite. Then, I would want to know why the polls are so close this year. The designer could also show similar years that had very close generic candidate support levels, and I could think about the similarities between 2023-2024 and those comparable previous election cycles.
+
+### Is the visualization enlightening?
+I also do not find 538's visualization enlightening. The chart does not change my mind about anything or make me think differently. I see that the generic candidates have been statistically tied and continue to be tied, with some noise from drawing different samples. However, I do not feel any smarter than I did before I looked at the chart. Maybe if I knew nothing about US politics, it would be more interesting to know that American voters do not have a clear favorite party. If the chart extended back farther in time, it would be more enlightening, but then it might be less functional if 538 is trying to focus on the recent polling results.
+
+In terms of how much good the chart is doing for the world, politics is a more important topic than some topics like entertainment since it has larger consequences, but I do not think this particular chart is doing tons of good for the world. I am glad that organizations like 538 make this information freely available in this easy to read format, but showing which party is winning the generic ballot will not change anyone's life, unfortunately. Luckily, 538 does also cover issue polling of more important topics and polling of real candidates, so I think having some less enlightening graphs like this one is not a big deal. Plus, not every visualization has to be on a serious life or death topic, as Cairo acknowledges.
+
